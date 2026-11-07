@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and answers
+    url: https://mdeditor.app/#faq
+    about: Common questions about MD Editor, answered on the website. For a private question, email support@mdeditor.app.

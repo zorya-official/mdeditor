@@ -1,0 +1,28 @@
+name: Idea or request
+description: Suggest something MD Editor should do.
+labels: [enhancement]
+body:
+  - type: dropdown
+    id: platforms
+    attributes:
+      label: Platform
+      multiple: true
+      options:
+        - All
+        - Windows
+        - Android
+        - Mac
+        - iPhone
+        - iPad
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like MD Editor to do?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: How would it help you?
