@@ -47,7 +47,7 @@ Store links appear here and on [mdeditor.app](https://mdeditor.app) as each stor
 - Enter continues lists. Format menu and keyboard shortcuts.
 - Find and replace. Export to PDF.
 - Open a .md or .markdown file from File Explorer, drop it on the window, or use Open Recent.
-- When another app or an AI tool changes the file you have open, MD Editor notices. A document without unsaved edits shows the new version ("Updated from disk", and the change can be undone). With unsaved edits it asks: Keep Both (the default), Use Disk Version, or Keep Mine. It never overwrites the other version.
+- When another app or an AI tool changes the file you have open, MD Editor notices. A document without unsaved edits shows the new version ("Updated from disk", and the change can be undone). With unsaved edits it asks: Keep Both (the default), Use Disk Version, or Keep My Edits. It never overwrites the other version.
 
 ### Android
 
