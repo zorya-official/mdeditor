@@ -17,13 +17,13 @@ It highlights Markdown as you type, shows hard-to-read Markdown as a clean rende
 </picture>
 </p>
 
-This repository is MD Editor's public home on GitHub: this page and the issue tracker for bug reports and ideas. Release notes will follow as the apps reach the stores. The app's source code is not published here.
+This repository is MD Editor's public home on GitHub: this page and the issue tracker for bug reports and ideas. Release notes for each version are on [What's new](https://mdeditor.app/whats-new/). The app's source code is not published here.
 
 ## Download
 
 | Platform | Runs on | Store |
 | --- | --- | --- |
-| Windows | Windows 10 and Windows 11 | Microsoft Store: coming soon |
+| Windows | Windows 10 and Windows 11 | [Microsoft Store](https://apps.microsoft.com/detail/9N89RHKWLKV5?mode=full) |
 | Android | Android 8.0 or later | Google Play: coming soon |
 | Mac | macOS 14 or later | Mac App Store: coming soon |
 | iPhone and iPad | iOS and iPadOS 17 or later | App Store: coming soon |
