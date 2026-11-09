@@ -1,6 +1,6 @@
 # MD Editor
 
-**MD Editor ([mdeditor.app](https://mdeditor.app)) is a free, light Markdown editor for Windows and Android, made by ZORYA.** MD Editor for Mac, iPhone and iPad is coming to the App Store.
+**MD Editor ([mdeditor.app](https://mdeditor.app)) is a free, light Markdown editor for Windows, Linux and Android, made by ZORYA.** MD Editor for Mac, iPhone and iPad is coming to the App Store.
 
 It highlights Markdown as you type, shows hard-to-read Markdown as a clean rendered page, and edits plain .md files where they are, so you and your AI work on the same files. No account, no analytics, no tracking, no ads.
 
@@ -24,30 +24,32 @@ This repository is MD Editor's public home on GitHub: this page and the issue tr
 | Platform | Runs on | Store |
 | --- | --- | --- |
 | Windows | Windows 10 and Windows 11 | [Microsoft Store](https://apps.microsoft.com/detail/9N89RHKWLKV5?mode=full) |
+| Linux | x64 and arm64: a .deb for Ubuntu 22.04 or later and Debian 12 or later, a .tar.gz for other distributions | [GitHub Releases](https://github.com/zorya-official/mdeditor/releases/latest) |
 | Android | Android 8.0 or later | Google Play: coming soon |
 | Mac | macOS 14 or later | Mac App Store: coming soon |
 | iPhone and iPad | iOS and iPadOS 17 or later | App Store: coming soon |
 
 Store links appear here and on [mdeditor.app](https://mdeditor.app) as each store goes live.
 
-## What it does on Windows and Android
+## What it does on Windows, Linux and Android
 
 - Free, with no account, no analytics, no tracking and no ads.
 - Light: no account, no setup and no library to import into; it opens straight into the file.
 - Opens plain .md files where they are and saves them as you type ("Saved" means the file is written).
 - Highlights Markdown as you type: headings, bold, links and lists stand out.
-- Shows the document as a clean page: headings, lists, task lists, tables, footnotes, quotes, code and pictures, in light or dark. Windows and Android use the same renderer.
+- Shows the document as a clean page: headings, lists, task lists, tables, footnotes, quotes, code and pictures, in light or dark. Windows, Linux and Android use the same renderer.
 - The preview reads GitHub Flavored Markdown (headings, lists, task lists, tables, strikethrough, quotes, code, links and pictures), plus footnotes, definition lists, highlights, and superscript and subscript.
 - Works offline. Only pictures linked from the web need a connection.
 - Seven languages: English, Korean, Japanese, Chinese (Simplified and Traditional), Spanish and Ukrainian.
 
-### Windows
+### Windows and Linux (the same desktop app)
 
 - Editor, Split and Preview views, one shortcut apart (Ctrl+1, Ctrl+2, Ctrl+3). Split scrolls both sides together.
 - Enter continues lists. Format menu and keyboard shortcuts.
 - Find and replace. Export to PDF.
-- Open a .md or .markdown file from File Explorer, drop it on the window, or use Open Recent.
+- Open a .md or .markdown file from File Explorer or your Linux file manager, drop it on the window, or use Open Recent.
 - When another app or an AI tool changes the file you have open, MD Editor notices. A document without unsaved edits shows the new version ("Updated from disk", and the change can be undone). With unsaved edits it asks: Keep Both (the default), Use Disk Version, or Keep My Edits. It never overwrites the other version.
+- On Linux, the .deb puts MD Editor among your apps and under Open With for Markdown files, and `mdeditor` starts it from a terminal. It does not update itself: new versions appear on [Releases](https://github.com/zorya-official/mdeditor/releases).
 
 ### Android
 
@@ -72,8 +74,8 @@ One app for Mac, iPhone and iPad. It is not available yet.
 
 ## What MD Editor does not do
 
-- No sync on Windows or Android. (Free iCloud sync is only in the Apple app.)
-- The Android app does not reload a file when another app changes it; that notice is on Windows (and in the coming Mac app).
+- No sync on Windows, Linux or Android. (Free iCloud sync is only in the Apple app.)
+- The Android app does not reload a file when another app changes it; that notice is on Windows and Linux (and in the coming Mac app).
 - The preview has no math, no diagrams (Mermaid) and no code syntax colouring.
 
 ## Questions
@@ -82,7 +84,7 @@ One app for Mac, iPhone and iPad. It is not available yet.
 Save the answer as a .md file and open it in MD Editor, or paste it into a new document. The preview shows its headings, lists, tables and code as a clean page, in light or dark mode.
 
 **Can I work on the same Markdown file as an AI agent?**
-Yes. MD Editor edits plain .md files in place and saves as you type, so an AI agent reads your latest text. On Windows, when an AI agent changes a file you have open, MD Editor shows the new version. If you have unsaved edits, it asks whether to keep both versions, use the one on disk, or keep yours.
+Yes. MD Editor edits plain .md files in place and saves as you type, so an AI agent reads your latest text. On Windows and Linux, when an AI agent changes a file you have open, MD Editor shows the new version. If you have unsaved edits, it asks whether to keep both versions, use the one on disk, or keep yours.
 
 **Is MD Editor free? Do I need an account?**
 Yes, it's free, with no ads and no in-app purchases. You don't need an account.
